@@ -26,5 +26,5 @@ Now that the uploading part is all set you have to set up the Nextcloud Yaga app
             <li>This works only with one auto-upload</li>
         </ul>
     </div>
-    <img class="ml-lg-2" src="/assets/videos/root_mapping.gif" alt="Root Mapping" width="250"/>
+    <img class="ml-lg-2" src="{{site.baseurl}}/assets/videos/root_mapping.gif" alt="Root Mapping" width="250"/>
 </div>
