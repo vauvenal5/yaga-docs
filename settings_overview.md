@@ -49,7 +49,7 @@ Allows you to change how images are displayed in your view.
         <p>Category view with date modified being the category. Sorted by newest category first. This is the default view. <b>Home View</b> only.</p>
         Please note, that there are currently two different version of <b>Category View</b> for performance evaluation reasons. Currently we recommend using the <b>experimental</b> view in case you use a catefory view.
     </div>
-    <img class="ml-lg-2" src="{{site.data.yaga.asset_url}}/assets/screenshots/all_set.png" alt="Category View" width="250"/>
+    <img class="ml-lg-2" src="/assets/screenshots/all_set.png" alt="Category View" width="250"/>
 </div>
 
 #### Grid View
@@ -58,7 +58,7 @@ Allows you to change how images are displayed in your view.
     <div class="content">
         Simple grid view sorted by newest first.
     </div>
-    <img class="ml-lg-2" src="{{site.data.yaga.asset_url}}/assets/screenshots/grid_view.png" alt="Category View" width="250"/>
+    <img class="ml-lg-2" src="/assets/screenshots/grid_view.png" alt="Category View" width="250"/>
 </div>
 
 #### List View
@@ -67,5 +67,5 @@ Allows you to change how images are displayed in your view.
     <div class="content">
         Simple list view sorted alphabetically.
     </div>
-    <img class="ml-lg-2" src="{{site.data.yaga.asset_url}}/assets/screenshots/list_view.png" alt="Category View" width="250"/>
+    <img class="ml-lg-2" src="/assets/screenshots/list_view.png" alt="Category View" width="250"/>
 </div>

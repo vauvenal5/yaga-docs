@@ -24,7 +24,7 @@ nav_order: 1
     <div class="content">
         When starting Nextcloud Yaga for the first time you will be presented with an empty screen. This is because after installation the default path points to a folder without any pictures. Follow this quickstart guide to set up Nextcloud Yaga to point to your Nextcloud server and your pictures.
     </div>
-    <img class="ml-lg-2" src="{{site.data.yaga.asset_url}}/assets/screenshots/fresh_install.png" alt="Clean Installation 1" width="250"/>
+    <img class="ml-lg-2" src="/assets/screenshots/fresh_install.png" alt="Clean Installation 1" width="250"/>
 </div>
 
 ## Login to Nextcloud
@@ -40,7 +40,7 @@ nav_order: 1
             <li> Grant access to Nextcloud Yaga </li>
         </ul>
     </div>
-    <img class="ml-lg-2" src="{{site.data.yaga.asset_url}}/assets/videos/login.gif" alt="Clean Installation 1" width="250"/>
+    <img class="ml-lg-2" src="/assets/videos/login.gif" alt="Clean Installation 1" width="250"/>
 </div>
 
 ## Set home view path
@@ -57,7 +57,7 @@ nav_order: 1
             <li> Leave the settings menu </li>
         </ul>
     </div>
-    <img class="ml-lg-2" src="{{site.data.yaga.asset_url}}/assets/videos/change_path.gif" alt="Clean Installation 1" width="250"/>
+    <img class="ml-lg-2" src="/assets/videos/change_path.gif" alt="Clean Installation 1" width="250"/>
 </div>
 
 ## All done!
@@ -72,5 +72,5 @@ nav_order: 1
             <li>How to set up an advanced image <a href="{{site.baseurl}}/sync_flow/">sync flow</a> with the Nextcloud app and Nextcloud Yaga.</li>
         </ul>
     </div>
-    <img class="ml-lg-2" src="{{site.data.yaga.asset_url}}/assets/screenshots/all_set.png" alt="Clean Installation 1" width="250"/>
+    <img class="ml-lg-2" src="/assets/screenshots/all_set.png" alt="Clean Installation 1" width="250"/>
 </div>
