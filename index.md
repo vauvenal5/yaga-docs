@@ -7,7 +7,7 @@ title: Home
 nav_order: 0
 ---
 
-<img src="{{site.baseurl}}/assets/feature_graphic.png" alt="Feature Graphic"/>
+<img src="https://raw.githubusercontent.com/vauvenal5/yaga/master/fastlane/metadata/android/en-US/images/featureGraphic.svg" alt="Feature Graphic"/>
 
 # What is Nextcloud Yaga?
 
