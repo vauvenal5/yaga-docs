@@ -21,13 +21,17 @@ Nextcloud Yaga has two types of settings, global and view local. **Global settin
 
 ## Global Settings
 
+### Theme
+The theme setting allows you to switch the color theme of the app between **light**, **dark**, and **follow system theme**.
+
 ### Root Mapping
 The root mapping allows you to specify a storage directory for downloaded images. More specifically you can specify one local path for one remote path. If you set the remote path to your Nextcloud root then all images downloaded to your local path will reassemble your remote file structure. If you set your remote path to a sub path then all images from this sub path will be saved to the specified local path. Images outside of this remote path will be saved to the Nextcloud Yaga default storage directory.
 
 See also: How to set up an advanced image <a href="{{site.baseurl}}/sync_flow/">sync flow</a> with the Nextcloud app and Nextcloud Yaga.
 
-### Theme
-The theme setting allows you to switch the color theme of the app between **light**, **dark**, and **follow system theme**.
+### Persist on View Image
+
+This option controls the app's behavior when an image is tapped in the app (i.e. opened in full screen/full resolution). When this option is **enabled**, the image is downloaded **and saved** to the Local Path configured in the app. This means that the image will persist in the app's Local Path even when the image is closed. When this option is **disabled**, the image will also be downloaded, but not saved permanently, i.e. that every time the image is opened, it will be downloaded again.
 
 ## View Local Settings
 
