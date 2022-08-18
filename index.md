@@ -26,9 +26,31 @@ Please have a look on the [quickstart guide]({{site.baseurl}}/quickstart/) for f
 
 # State of the app
 
-My current plan is to release a stable `v1.0.0` version around christmas this year. For this release I am aming to complete all features that are required for the app to feel like a complete gallery app with respect to the provided functionality.
+{:.breaking}
+Started with refactoring for Android 11+ support. 
 
-You can track planned features, current issues as well as what is sceduled for `v1.0.0` in the [issues](https://github.com/vauvenal5/yaga/issues) section.
+{:.info}
+FDroid release will not be updated for the time being if you need any of the removed features and are still on Android 10 (API Level 29) or lower consider installing from there.
+
+Due to massive changes in how and were apps are allowed to access files in Anroid 11 and higher (API Level 30+), I have started refactoring Nextcloud Yaga towards using the MediaStore API for local access to images. Only exception are files which are contained in the app folder. This is a lot of work and has implications on the existing functionality. For example, the sync flow which was propesed until now does not work any more. Furthermore, SD card handling is currently broken and root mapping is disabled. Root mapping will be eventually replaced by a new feature, regarding SD card support, I am not sure when I will be able to get back to this.
+
+Issues tracking broken or replacement features will be created soon and linked here.
+
+On a positive note, file provider functionality has been repaired.
+
+## Changelog
+- targeting Android 12 (API Level 31)
+- refactoring to MediaStore API for local file access
+- root mapping deprecated: will be refactored in future when full MediaStore API support is implemented
+- automatically resetting root mapping to revert back to default app directory
+- local move/copy are currently not supported
+- local delete is supported but requires user confirmation
+- on Android 12 (API 31+) you can assign MANAGE_MEDIA rights to the app to avoid delete confirmation dialog
+- SD card support is broken
+- file provider for other apps is fixed
+- about app dialog was updated to support news
+
+# Feature Set
 
 The following lists provide only a brief overview.
 
