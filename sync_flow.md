@@ -7,6 +7,9 @@ nav_order: 4
 
 # Sync Flow
 
+{:.deprecated}
+This sync flow is deprecated from Nextcloud Yaga 0.27.0 and higher. This is mainly due to access restrictions in Android 11 and higher.
+
 Nextcloud Yaga itself does not yet support any upload or sync functionality. You need to relay on the Nextcloud app for that. However, thanks to Nextclouds sync abilities it is easy and recommended to setup a dual app workflow.
 
 In this workflow the Nextcloud app will take over the process of syncing images to your server. For this to work you will have to set up auto-upload in your Nextcloud app for the respective directories. It does not matter if you keep the images in the original folder or if you move them to the Nextcloud folder, although the latter has some advantages as we will see.
